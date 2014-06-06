@@ -1,0 +1,23 @@
+.form_wrapper
+{
+	width: 386px;
+	padding: 11px 11px 0 2px;
+	background: #fdfefe; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfefe 0%, #dee2ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfefe), color-stop(100%,#dee2ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fdfefe 0%,#dee2ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fdfefe 0%,#dee2ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fdfefe 0%,#dee2ee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fdfefe 0%,#dee2ee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfefe', endColorstr='#dee2ee',GradientType=0 ); /* IE6-9 */
+}
+
+.form_wrapper *
+{
+    color: #0e385f;
+}
+
+.form_wrapper form
+{
+    border-top: 1px solid #9aafca;
+}
